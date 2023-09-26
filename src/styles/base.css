@@ -1,0 +1,6 @@
+@import "@catppuccin/palette/style";
+
+html, body {
+	color: var(--ctp-mocha-text);
+	background: var(--ctp-frappe-base);
+}
