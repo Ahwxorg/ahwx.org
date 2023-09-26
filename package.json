@@ -13,5 +13,13 @@
     "@astrojs/tailwind": "^5.0.0",
     "astro": "^3.1.4",
     "tailwindcss": "^3.0.24"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
