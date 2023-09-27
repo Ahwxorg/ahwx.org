@@ -1,4 +1,7 @@
 ---
+
+import '../styles/base.css'
+
 interface Props {
 	title: string;
 }
@@ -30,7 +33,12 @@ const { title } = Astro.props;
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
 	</head>
-	<body>
-		<slot />
-	</body>
+	<body class="bg-black">
+		<slot class="bg-black" />
+  </body>
+<style>
+  @tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+</style>
 </html>
