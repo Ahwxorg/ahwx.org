@@ -1,0 +1,25 @@
+---
+import HeaderLink from './HeaderLink.astro';
+import { HOMEPAGE_URL, SITE_TITLE } from '../config';
+import LogoIcon from './icons/logo.tsx';
+---
+
+<header class="fixed w-full pq2 z-20 backdrop-blur-md">
+  <div class="mx-auto max-w-3xl">
+    <nav class="flex items-center gap-3 text-base">
+      <h2 class="font-semibold tracking-tighter p-2 font-comic text-lg hover:animate-spin">
+        <LogoIcon />
+      </h2>
+      <h2 class="font-semibold tracking-tighter text-lg">Ahwx</h2>
+      <div class="p-6 items-center gap-6 hidden md:flex">
+        <HeaderLink href="/">Home</HeaderLink>
+    		<HeaderLink href="/">2</HeaderLink>
+        <HeaderLink href="/">3</HeaderLink>
+        <HeaderLink href="/">4</HeaderLink>
+      </div>
+      <div class="flex-1"></div>
+        <HeaderLink href="/">Source</HeaderLink> 
+      <div class="p-1"></div>
+    </nav>
+  </div>
+</header>
