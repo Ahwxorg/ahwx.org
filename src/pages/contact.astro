@@ -1,0 +1,19 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Card from '../components/Card.astro';
+import Header from '../components/Header.astro';
+import Paragraph from '../components/Paragraph.astro';
+import Heading from '../components/Heading.astro';
+---
+
+<Layout title="Ahwx >> Contact" description="Ahwx' cozy contact page">
+  <Header />
+  <div class="h-40"></div>
+  <main>
+    <Heading><span class="text-2xl text-pink-300">「ahwx <span class="text-indigo-300">♥</span>」</span></Heading>
+    <Paragraph>
+      Matrix: <code>@ahwx:ahwx.org</code> <a href="https://ahwx.org/matrix.php">(instructions here)</a>
+      Mail: <code>ahwx at ahwx dot org</code>
+    </Paragraph>
+  </main>
+</Layout>
