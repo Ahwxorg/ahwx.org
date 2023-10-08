@@ -3,12 +3,13 @@ import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
 import Header from '../components/Header.astro';
 import Paragraph from '../components/Paragraph.astro';
+import Heading from '../components/Heading.astro';
 ---
 
 <Layout title="Ahwx >> Home" description="Ahwx' cozy homepage">
   <Header />
   <div class="h-40"></div>
-  <h4>Hello!</h4>
+  <Heading class="text-xl">Hello!</Heading>
   <main class="pt-[56px]">
     <Paragraph>Hey there! I am <span class="text-pink-300 hover:bg-purple-50 rounded-s">Ahwx ♥</span>
           Welcome to my own cozy little corner on the internet! :3
@@ -18,7 +19,7 @@ import Paragraph from '../components/Paragraph.astro';
           Also, please sign <a href="https://ahwx.123guestbook.com/">my guestbook here</a> (external link)!
     </Paragraph>
     <Paragraph>
-      <h2>About</h2>
+      <Heading>About</Heading>
       This place is a home for my psychological dysfunctioning.
       This is a place where I am in control, with no censorship or manipulation.
       This is a place where my words don't get mixed up with noise.
