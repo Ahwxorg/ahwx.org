@@ -1,0 +1,18 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Card from '../components/Card.astro';
+import Header from '../components/Header.astro';
+import Paragraph from '../components/Paragraph.astro';
+import Heading from '../components/Heading.astro';
+---
+
+<meta http-equiv="refresh" content="0; url=https://blog.ahwx.org" />
+
+<Layout title="Ahwx >> Blog" description="Ahwx' cozy blog">
+  <Header />
+  <div class="h-40"></div>
+  <main>
+    <Heading><span class="text-2xl text-pink-300">「ahwx <span class="text-indigo-300">♥</span>」</span></Heading>
+    <Paragraph>This page should redirect to my <a class="underline underline-offset-1 text-indigo-300" href="https://blog.ahwx.org">blog</a>. If it does not, click <a class="underline underline-offset-1 text-indigo-300" href="https://blog.ahwx.org">here</a>.</Paragraph>
+  </main>
+</Layout>
