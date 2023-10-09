@@ -3,6 +3,8 @@ import Layout from '../layouts/Layout.astro';
 import Header from '../components/Header.astro';
 import Paragraph from '../components/Paragraph.astro';
 import Heading from '../components/Heading.astro';
+
+const { frontmatter } = Astro.props;
 ---
 
 <Layout title="Ahwx >> Wishlist" description="Ahwx' cozy wishlist">
@@ -10,8 +12,9 @@ import Heading from '../components/Heading.astro';
   <div class="h-40"></div>
   <main>
     <Heading><span class="text-2xl text-pink-300">「ahwx <span class="text-indigo-300">♥</span>」</span></Heading>
-    <Paragraph>
-      <slot />
+      <Paragraph>
+        <div class="opacity-50">{frontmatter.pubDate.slice(0, 10)}</div>
+        <slot />
     </Paragraph>
   </main>
 </Layout>
