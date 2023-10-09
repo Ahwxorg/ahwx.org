@@ -15,7 +15,7 @@
     "@catppuccin/palette": "^0.2.0",
     "@types/react": "^18.0.21",
     "@types/react-dom": "^18.0.6",
-    "astro": "^3.1.4",
+    "astro": "^3.2.3",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "tailwindcss": "^3.0.24"
