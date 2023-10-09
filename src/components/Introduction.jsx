@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-const textArray = ['technology enthousiast', 'homelabber', 'nerd', 'person', 'student', 'teacher'];
+const textArray = ['technology enthousiast', 'homelabber', 'nerd', 'person', 'student', 'teacher', 'blogger', 'shitposter'];
 
 class Home extends Component {
   constructor() {
