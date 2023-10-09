@@ -4,23 +4,20 @@ import { HOMEPAGE_URL, SITE_TITLE } from '../config';
 import LogoIcon from './icons/logo.tsx';
 ---
 
-<header class="fixed w-full pq2 z-20">
-  <div class="mx-auto max-w-3xl backdrop-blur-3xl rounded-xl">
+<header class="items-center fixed w-full">
+  <div class="backdrop-blur-3xl rounded-xl">
     <nav class="flex items-center gap-3 text-base">
-      <h2 class="font-semibold tracking-tighter p-2 font-comic text-lg">
-        <LogoIcon />
-      </h2>
       <div class="p-6 items-center gap-6 hidden md:flex">
         <HeaderLink href="/">Home</HeaderLink>
     		<HeaderLink href="/blog">Blog</HeaderLink>
-        <HeaderLink href="/github">GitHub</HeaderLink>
+        <!-- <HeaderLink href="/github">GitHub</HeaderLink> -->
         <HeaderLink href="/contact">Contact</HeaderLink>
-        <HeaderLink href="/webrings">Webrings</HeaderLink>
-        <HeaderLink href="/instances">Instances</HeaderLink>
+        <!-- <HeaderLink href="/webrings">Webrings</HeaderLink> -->
+        <!-- <HeaderLink href="/instances">Instances</HeaderLink> -->
         <HeaderLink href="/other">Other</HeaderLink>
       </div>
       <div class="flex-1"></div>
-        <HeaderLink href="/">Source</HeaderLink> 
+        <HeaderLink href="/go">Go!</HeaderLink> 
       <div class="p-1"></div>
     </nav>
   </div>
