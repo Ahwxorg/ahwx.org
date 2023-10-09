@@ -1,0 +1,26 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Paragraph from '../components/Paragraph.astro';
+import Heading from '../components/Heading.astro';
+import Introduction from '../components/Introduction';
+import Greeting from '../components/Greeting';
+import NormalLink from '../components/NormalLink.astro';
+---
+
+<Layout title="Ahwx >> Home" description="Ahwx' cozy homepage">
+  <Header />
+  <div class="h-40"></div>
+  <main>
+    <Heading><Greeting client:load />, I'm <span class="text-2xl text-pink-300">「ahwx <span class="text-indigo-300">♥</span>」</span></Heading>
+    <Heading>I'm a <Introduction client:load />.</Heading>
+      <Paragraph>
+        <ul>
+          <li class="pt-2"><NormalLink href="/blog" text="Blog"/></li>
+          <li class="pt-2"><NormalLink href="https://matrix.to/#/@ahwx:ahwx.org" text="Matrix"/></li>
+          <li class="pt-2"><NormalLink href="https://social.ahwx.org/@ahwx" text="Mastodon"/></li>
+          <li class="pt-2"><NormalLink href="/github" text="GitHub"/></li>
+        </ul>
+    </Paragraph>
+  </main>
+</Layout>
