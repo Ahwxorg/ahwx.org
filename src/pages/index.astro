@@ -4,13 +4,14 @@ import Header from '../components/Header.astro';
 import Paragraph from '../components/Paragraph.astro';
 import Heading from '../components/Heading.astro';
 import Introduction from '../components/Introduction';
+import Greeting from '../components/Greeting';
 ---
 
 <Layout title="Ahwx >> Home" description="Ahwx' cozy homepage">
   <Header />
   <div class="h-40"></div>
   <main>
-    <Heading><span class="text-2xl text-pink-300">「ahwx <span class="text-indigo-300">♥</span>」</span></Heading>
+    <Heading><Greeting client:load />, I'm <span class="text-2xl text-pink-300">「ahwx <span class="text-indigo-300">♥</span>」</span></Heading>
     <Heading>I'm a <Introduction client:load />.</Heading>
     <Paragraph>
           Welcome to my own cozy little corner on the internet :3! This place is trying its best to be my personal website. I don't want to tell you too much about myself, and you don't want to read a wall of text. I love GNU/Linux, servers, networking etc. Just go and read my blog if you care or follow me on <a class="underline-offset-1 underline text-indigo-300" rel="me" href="https://social.ahwx.org/@ahwx">Mastodon</a>. As for this site... I just like the 2000 era of computing, and all previous version were more based on that. I wanted to try the Art stack (<a href="https://astro.build" class="underline-offset-1 underline text-indigo-300">Astro</a>/<a href="https://reactjs.org" class="underline-offset-1 underline text-indigo-300">React</a>/<a href="https://tailwindcss.com/" class="underline-offset-1 underline text-indigo-300">TailwindCSS</a>) since that is what I also use in other projects.<br><br>
