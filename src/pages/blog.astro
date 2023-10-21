@@ -15,7 +15,7 @@ const blogPosts = (await Astro.glob('./blog/*.md')).sort(
   <div class="h-40"></div>
   <main>
     <Heading><span class="text-2xl text-pink-300">「ahwx <span class="text-indigo-300">♥</span>」</span></Heading>
-      <Paragraph>
+      <Paragraph transition:name="Paragraph">
         <span class="text-lg">A lot of pages have also moved to <a class="underline underline-offset-1 text-indigo-300" href="https://docs.ahwx.org">Linkbase</a>.</span>
         <ul class="pt-8">
           {blogPosts.map(post => (

@@ -14,7 +14,7 @@ import NormalLink from '../components/NormalLink.astro';
   <main>
     <Heading><Greeting client:load />, I'm <span class="text-2xl text-pink-300">「ahwx <span class="text-indigo-300">♥</span>」</span></Heading>
     <Heading>I'm a <Introduction client:load />.</Heading>
-      <Paragraph>
+      <Paragraph transition:name="Paragraph">
         <ul>
           <li class="pt-2"><NormalLink href="/blog" text="Blog"/></li>
           <li class="pt-2"><NormalLink href="https://matrix.to/#/@ahwx:ahwx.org" text="Matrix"/></li>
