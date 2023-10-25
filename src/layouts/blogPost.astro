@@ -7,6 +7,7 @@ import Heading from '../components/Heading.astro';
 const { frontmatter } = Astro.props;
 ---
 
+
 <Layout title="Ahwx >> Wishlist" description="Ahwx' cozy wishlist">
   <Header />
   <div class="h-40"></div>
@@ -15,6 +16,6 @@ const { frontmatter } = Astro.props;
       <Paragraph>
         <div class="opacity-50">{frontmatter.pubDate.slice(0, 10)}</div>
         <slot />
-    </Paragraph>
+      </Paragraph>
   </main>
 </Layout>
