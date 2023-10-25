@@ -2,7 +2,7 @@
 layout: ../../layouts/blogPost.astro
 title: 'Switching to the Fish shell'
 pubDate: 2023-08-14
-description: "A brief overview of Fish
+description: "A brief overview of Fish"
 author: "Ahwx"
 ---
 
