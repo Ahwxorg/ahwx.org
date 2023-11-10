@@ -1,0 +1,21 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Paragraph from '../components/Paragraph.astro';
+import Heading from '../components/Heading.astro';
+import Introduction from '../components/Introduction';
+import Greeting from '../components/Greeting';
+import NormalLink from '../components/NormalLink.astro';
+---
+
+<Layout title="Ahwx >> 404; page not found" description="Ahwx' cozy website">
+  <Header />
+  <div class="h-40"></div>
+  <main>
+    <Heading><Greeting client:load />, I'm <span class="text-2xl text-pink-300">「ahwx <span class="text-indigo-300">♥</span>」</span></Heading>
+    <Heading>I'm a <Introduction client:load />.</Heading>
+      <Paragraph transition:name="Paragraph">
+        You've reached the end of the universe, astronaut.
+      </Paragraph>
+  </main>
+</Layout>
