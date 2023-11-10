@@ -3,6 +3,7 @@ import Layout from '../layouts/Layout.astro';
 import Header from '../components/Header.astro';
 import Paragraph from '../components/Paragraph.astro';
 import Heading from '../components/Heading.astro';
+import NormalLink from '../components/NormalLink.astro';
 ---
 
 <Layout title="Ahwx >> Instances" description="Ahwx' cozy instances">
@@ -10,14 +11,8 @@ import Heading from '../components/Heading.astro';
   <div class="h-40"></div>
   <main>
     <Heading><span class="text-2xl text-pink-300">「ahwx <span class="text-indigo-300">♥</span>」</span></Heading>
-    <Paragraph transition:name="Paragraph">
-      You might've read a little bit about the instances I use on my blog. If you haven't, here is a more detailed breakdown.
-
-      <ul class="pt-2">
-        <li>Pinterest:                 <a class="text-indigo-300 underline underline-offset-1" href="https://binternet.ahwx.org">Binternet</a> (official instance)</li>
-        <li>Reddit:                    <a class="text-indigo-300 underline underline-offset-1" href="https://r.ahwx.org">Libreddit</a></li>
-        <li>Search Engine:             <a class="text-indigo-300 underline underline-offset-1" href="https://search.ahwx.org">LibreY</a></li>
-      </ul>
+      <Paragraph transition:name="Paragraph">
+        See my <NormalLink href="/go" text="Go! page"/>.
     </Paragraph>
   </main>
 </Layout>
