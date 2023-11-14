@@ -1,0 +1,5 @@
+Contact: https://ahwx.org/contact
+
+# This site is running of of community support and goodwill.
+# Please do not contact me for beg-bounting, SEO related stuff or anything else that's *not* a security vulnerability.
+# If you find something awesome, want to chat, or found an actual vulnerability, please email me (using the address on the contact page) or send a DM on Matrix.
