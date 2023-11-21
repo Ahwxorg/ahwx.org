@@ -1,5 +1,5 @@
-<!DOCTYPE html><!-- Global Metadata --><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" type="image/png" href="/logo.png"><meta name="generator" content="Astro v3.4.3"><!-- Canonical URL --><link rel="canonical" href="https://ahwx.org"><!-- Primary Meta Tags --><title>Ahwx &gt;&gt; Wishlist</title><meta name="title" content="Ahwx >> Wishlist"><meta name="description" content="Ahwx' cozy wishlist"><!-- Open Graph / Facebook --><meta property="og:type" content="website"><meta property="og:url" content="http://localhost:4321/blog/cgit-gentoo/"><meta property="og:title" content="Ahwx >> Wishlist"><meta property="og:description" content="Ahwx' cozy wishlist"><meta property="og:image" content="http://localhost:4321/placeholder-social.jpg"><!-- Twitter --><meta property="twitter:card" content="summary_large_image"><meta property="twitter:url" content="http://localhost:4321/blog/cgit-gentoo/"><meta property="twitter:title" content="Ahwx >> Wishlist"><meta property="twitter:description" content="Ahwx' cozy wishlist"><meta property="twitter:image" content="http://localhost:4321/placeholder-social.jpg"><link rel="stylesheet" href="/_astro/blog.7eb14b5f.css" />
-<link rel="stylesheet" href="/_astro/wishlist.4112c7df.css" /><script type="module" src="/_astro/hoisted.382ac49c.js"></script><div><header class="items-center fixed w-full"><div class="backdrop-blur-3xl rounded-xl"><nav class="flex items-center gap-3 text-base"><div class="p-6 items-center gap-6 hidden md:flex"><a href="/" data-astro-cid-eimmu3lg>Home</a><a href="/blog" data-astro-cid-eimmu3lg>Blog</a><!-- <HeaderLink href="/github">GitHub</HeaderLink> --><a href="/contact" data-astro-cid-eimmu3lg>Contact</a><!-- <HeaderLink href="/webrings">Webrings</HeaderLink> --><!-- <HeaderLink href="/instances">Instances</HeaderLink> --><a href="/other" data-astro-cid-eimmu3lg>Other</a></div><div class="flex-1"></div><a href="/go" data-astro-cid-eimmu3lg>Go!</a><div class="p-1"></div></nav></div></header><div class="h-40"></div><main><h1 class="text-xl font-bold align-middle text-center p-2 m-2"><span class="text-2xl text-pink-300">「ahwx <span class="text-indigo-300">♥</span>」</span></h1><div class="ml-8 mr-8 md:ml-80 md:mr-80"><div class="opacity-50">2023-08-14</div><hr>
+<!DOCTYPE html><!-- Global Metadata --><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" type="image/png" href="/logo.png"><meta name="generator" content="Astro v3.5.5"><!-- Canonical URL --><link rel="canonical" href="https://ahwx.org"><!-- Primary Meta Tags --><title>Ahwx &gt;&gt; Wishlist</title><meta name="title" content="Ahwx >> Wishlist"><meta name="description" content="Ahwx' cozy wishlist"><!-- Open Graph / Facebook --><meta property="og:type" content="website"><meta property="og:url" content="http://localhost:4321/blog/cgit-gentoo/"><meta property="og:title" content="Ahwx >> Wishlist"><meta property="og:description" content="Ahwx' cozy wishlist"><meta property="og:image" content="http://localhost:4321/placeholder-social.jpg"><!-- Twitter --><meta property="twitter:card" content="summary_large_image"><meta property="twitter:url" content="http://localhost:4321/blog/cgit-gentoo/"><meta property="twitter:title" content="Ahwx >> Wishlist"><meta property="twitter:description" content="Ahwx' cozy wishlist"><meta property="twitter:image" content="http://localhost:4321/placeholder-social.jpg"><link rel="stylesheet" href="/_astro/blog.7eb14b5f.css" />
+<link rel="stylesheet" href="/_astro/wishlist.4112c7df.css" /><script type="module" src="/_astro/hoisted.17158c12.js"></script><div>  <header class="items-center fixed w-full"> <div class="backdrop-blur-3xl rounded-xl"> <nav class="flex items-center gap-3 text-base"> <div class="p-6 items-center gap-6 hidden md:flex"> <a href="/" data-astro-cid-eimmu3lg> Home </a>  <a href="/blog" data-astro-cid-eimmu3lg> Blog </a>  <!-- <HeaderLink href="/github">GitHub</HeaderLink> --> <a href="/contact" data-astro-cid-eimmu3lg> Contact </a>  <!-- <HeaderLink href="/webrings">Webrings</HeaderLink> --> <!-- <HeaderLink href="/instances">Instances</HeaderLink> --> <a href="/other" data-astro-cid-eimmu3lg> Other </a>  </div> <div class="flex-1"></div> <a href="/go" data-astro-cid-eimmu3lg> Go! </a>  <div class="p-1"></div> </nav> </div> </header> <div class="h-40"></div> <main> <h1 class="text-xl font-bold align-middle text-center p-2 m-2"> <span class="text-2xl text-pink-300">「ahwx <span class="text-indigo-300">♥</span>」</span> </h1> <div class="ml-8 mr-8 md:ml-80 md:mr-80">  <div class="opacity-50">2023-08-14</div> <hr>
 <h2 id="titledate-2023-02-16">title:
 date: 2023-02-16</h2>
 <h1 id="set-up-cgit-using-uwsgi--nginx-on-gentoo">set up cgit using uwsgi &#x26; nginx on gentoo</h1>
@@ -9,7 +9,7 @@ date: 2023-02-16</h2>
 <blockquote>
 <p>this is partially copied from the wiki, but just my setup for when i reinstall :)</p>
 </blockquote>
-<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" lang="sh"><code><span class="line"><span style="color:#79B8FF">echo</span><span style="color:#9ECBFF"> "www-servers/uwsgi cgi"</span><span style="color:#F97583"> >></span><span style="color:#9ECBFF"> /etc/portage/package.use/uwsgi</span></span>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0"><code><span class="line"><span style="color:#79B8FF">echo</span><span style="color:#9ECBFF"> "www-servers/uwsgi cgi"</span><span style="color:#F97583"> >></span><span style="color:#9ECBFF"> /etc/portage/package.use/uwsgi</span></span>
 <span class="line"><span style="color:#B392F0">root</span><span style="color:#6A737D"> # emerge -avq www-apps/cgit www-servers/nginx www-servers/uwsgi</span></span>
 <span class="line"><span style="color:#B392F0">root</span><span style="color:#6A737D"> # useradd -m -s /bin/bash git</span></span>
 <span class="line"><span style="color:#B392F0">root</span><span style="color:#6A737D"> # su - git</span></span>
@@ -20,7 +20,7 @@ date: 2023-02-16</h2>
 <span class="line"></span>
 <span class="line"><span style="color:#B392F0">root</span><span style="color:#6A737D"> # nvim /etc/cgitrc</span></span></code></pre>
 <h2 id="my-etccgitrc-tweak-what-you-want">my /etc/cgitrc, tweak what you want:</h2>
-<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" lang="sh"><code><span class="line"><span style="color:#6A737D"># Make cgit generate link using absolute URL</span></span>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0"><code><span class="line"><span style="color:#6A737D"># Make cgit generate link using absolute URL</span></span>
 <span class="line"><span style="color:#E1E4E8">virtual-root</span><span style="color:#F97583">=</span><span style="color:#9ECBFF">/</span></span>
 <span class="line"></span>
 <span class="line"><span style="color:#6A737D"># The maximum number of entries in the cgit cache. When set to "0",</span></span>
@@ -153,7 +153,7 @@ date: 2023-02-16</h2>
 <span class="line"><span style="color:#E1E4E8">scan-path</span><span style="color:#F97583">=</span><span style="color:#9ECBFF">/home/git/repos</span></span>
 <span class="line"></span></code></pre>
 <h2 id="homegituwsgicgitini">/home/git/uwsgi.cgit.ini</h2>
-<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" lang="sh"><code><span class="line"><span style="color:#E1E4E8">[uwsgi]</span></span>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0"><code><span class="line"><span style="color:#E1E4E8">[uwsgi]</span></span>
 <span class="line"><span style="color:#E1E4E8">; </span><span style="color:#B392F0">enables</span><span style="color:#9ECBFF"> logging</span><span style="color:#9ECBFF"> via</span><span style="color:#9ECBFF"> the</span><span style="color:#9ECBFF"> system-default</span><span style="color:#9ECBFF"> syslog</span><span style="color:#9ECBFF"> program</span></span>
 <span class="line"><span style="color:#E1E4E8">; (for example, syslog-ng)</span></span>
 <span class="line"><span style="color:#B392F0">logger</span><span style="color:#9ECBFF"> =</span><span style="color:#9ECBFF"> syslog</span></span>
@@ -200,8 +200,8 @@ date: 2023-02-16</h2>
 <span class="line"><span style="color:#9ECBFF">; this is an alternative to nginx rewrite rule</span></span>
 <span class="line"><span style="color:#9ECBFF">; "rewrite ^/subdirectory/(.*)$ /subdirectory/$1?url=/$1 break;"</span></span>
 <span class="line"><span style="color:#9ECBFF">route-uri = ^/(.*) rewrite:/$1</span></span></code></pre>
-<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" lang="sh"><code><span class="line"><span style="color:#B392F0">root</span><span style="color:#6A737D"> # ln -s /etc/init.d/uwsgi /etc/init.d/uwsgi.cgit</span></span></code></pre>
-<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" lang="sh"><code><span class="line"><span style="color:#6A737D"># Distributed under the terms of the GNU General Public License v2</span></span>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0"><code><span class="line"><span style="color:#B392F0">root</span><span style="color:#6A737D"> # ln -s /etc/init.d/uwsgi /etc/init.d/uwsgi.cgit</span></span></code></pre>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0"><code><span class="line"><span style="color:#6A737D"># Distributed under the terms of the GNU General Public License v2</span></span>
 <span class="line"></span>
 <span class="line"><span style="color:#6A737D"># Additional options you might want to pass to uWSGI</span></span>
 <span class="line"><span style="color:#6A737D">#</span></span>
@@ -216,7 +216,7 @@ date: 2023-02-16</h2>
 <span class="line"><span style="color:#E1E4E8">UWSGI_GROUP</span><span style="color:#F97583">=</span><span style="color:#9ECBFF">nginx</span></span></code></pre>
 <h2 id="nginx">nginx</h2>
 <p>for nginx, just make a server and make sure it looks something like this and add some ssl certs</p>
-<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" lang="sh"><code><span class="line"><span style="color:#B392F0">server</span><span style="color:#9ECBFF"> {</span></span>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0"><code><span class="line"><span style="color:#B392F0">server</span><span style="color:#9ECBFF"> {</span></span>
 <span class="line"><span style="color:#B392F0">    listen</span><span style="color:#79B8FF"> 80</span><span style="color:#E1E4E8">;</span></span>
 <span class="line"><span style="color:#B392F0">    server_name</span><span style="color:#9ECBFF"> git.ahwx.org</span><span style="color:#E1E4E8"> ;</span></span>
 <span class="line"></span>
@@ -238,7 +238,7 @@ date: 2023-02-16</h2>
 <span class="line"><span style="color:#E1E4E8">    }</span></span>
 <span class="line"><span style="color:#E1E4E8">}</span></span></code></pre>
 <h2 id="start-it">start it</h2>
-<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" lang="sh"><code><span class="line"><span style="color:#B392F0">rc-service</span><span style="color:#9ECBFF"> uwsgi.cgit</span><span style="color:#9ECBFF"> start</span></span>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0"><code><span class="line"><span style="color:#B392F0">rc-service</span><span style="color:#9ECBFF"> uwsgi.cgit</span><span style="color:#9ECBFF"> start</span></span>
 <span class="line"><span style="color:#B392F0">rc-service</span><span style="color:#9ECBFF"> nginx</span><span style="color:#9ECBFF"> restart</span></span>
 <span class="line"><span style="color:#B392F0">rc-update</span><span style="color:#9ECBFF"> add</span><span style="color:#9ECBFF"> uwsgi.cgit</span><span style="color:#9ECBFF"> default</span></span>
 <span class="line"><span style="color:#B392F0">rc-update</span><span style="color:#9ECBFF"> add</span><span style="color:#9ECBFF"> nginx</span><span style="color:#9ECBFF"> default</span></span></code></pre>
@@ -247,4 +247,4 @@ date: 2023-02-16</h2>
 <li>change the version for cgit on every update</li>
 <li>check if git clone works over http</li>
 <li>keep you stuff updated</li>
-</ul></div></main></div><meta name="astro-view-transitions-enabled" content="true"><meta name="astro-view-transitions-fallback" content="animate">
+</ul>  </div> </main>  </div> <meta name="astro-view-transitions-enabled" content="true"><meta name="astro-view-transitions-fallback" content="animate">
