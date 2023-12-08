@@ -3,19 +3,21 @@ layout: ../../layouts/Wishlist.astro
 title: Ahwx >> Wishlist
 ---
 
-*Updated on: mon, 10/09/2023, 4:11pm*
+*Updated on: mon, 10/09/2023, 4:11pm*<br><br>
 
-Want to give anything but not sure what to give? [Reach out to me](https://ahwx.org/contact.php) please, so you can [donate](https://ahwx.org/donate.php) a custom amount of money to me directly.
+Want to give anything but not sure what to give? [Reach out to me](https://ahwx.org/contact.php) please, so you can [donate](https://ahwx.org/donate.php) a custom amount of money to me directly.<br><br>
 
-If something is unclear, please shoot me a message at ahwx <at> ahwx <dot> org.
-
-#### Main list:
+If something is unclear, please shoot me a message at ahwx <at> ahwx <dot> org.<br><br>
 
 | Priority                         | Price                                      | Item |
 |----------------------------------|--------------------------------------------|------|
+| very high                        | ? euros                                    | Any UPS that can communicate to my servers to power off, and can keep them on for a few minutes |
 | very high                        | ~20 euros                                  | 3D-printer filament, preferably not black |
-| high                             | ~100 euros                                 | Money for/a (DJI) drone with image stabilisation that can carry my Sony HDR-AS100V |
-| high                             | ~50 euros                                  | Any SFP+ network card that does 10GbE fiber and is supported on Proxmox and/or NixOS/Gentoo GNU/Linux |
+| very high                        | ~15-20 euros                               | [USB-C 2.5Gbit Ethernet adapter (this is a random example, must work with macOS/Linux](https://www.amazon.nl/dp/B0CD1FDKT1)
+| very high                        | ~15 euros                                  | [USB Sharing Switch](https://www.amazon.nl/dp/B09DSGL7KV)
+| very high                        | ~12 euros                                  | [USB hub](https://www.amazon.nl/dp/B0CD1BHXPZ)
+| high                             | ~30 euros                                  | [PCIe 2.5Gbit Ethernet adapter (this is a random example, must work with Linux/BSD](https://www.amazon.nl/dp/B0BNHWZBCC/)
+| high                             | ~50 euros                                  | Any SFP+ network card that does 10GbE fiber and is supported on Proxmox and/or Gentoo GNU/Linux |
 | high                             | ~150 euros                                 | Any SFP+ network card that does 10GbE fiber and is supported on MacOS (M1/M2 Pro, Thunderbolt 3/4) or a ThunderBolt 3/4 PCIe enclosure |
 | medium                           | ~3 euros                                   | [Apple Watch band for Watch SE 44mm](https://nl.aliexpress.com/item/1005004300715864.html) |
 | medium                           | ~?? euros                                  | RGB/W lights/led strips that are compatible with Home Assistant and don't need (Chinese) servers. (No Tuya, LSC smart connect, etc please) |
