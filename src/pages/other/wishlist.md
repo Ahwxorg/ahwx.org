@@ -19,6 +19,7 @@ If something is unclear, please shoot me a message at ahwx <at> ahwx <dot> org.<
 | high                             | ~30 euros                                  | [PCIe 2.5Gbit Ethernet adapter (this is a random example, must work with Linux/BSD](https://www.amazon.nl/dp/B0BNHWZBCC/)
 | high                             | ~50 euros                                  | Any SFP+ network card that does 10GbE fiber and is supported on Proxmox and/or Gentoo GNU/Linux |
 | high                             | ~150 euros                                 | Any SFP+ network card that does 10GbE fiber and is supported on MacOS (M1/M2 Pro, Thunderbolt 3/4) or a ThunderBolt 3/4 PCIe enclosure |
+| medium                           | ~30 euros                                  | [Busy Town R2 deskmat](https://mykeyboard.eu/catalogue/busy-town-r2-deskmat-gb_7829/)
 | medium                           | ~3 euros                                   | [Apple Watch band for Watch SE 44mm](https://nl.aliexpress.com/item/1005004300715864.html) |
 | medium                           | ~?? euros                                  | RGB/W lights/led strips that are compatible with Home Assistant and don't need (Chinese) servers. (No Tuya, LSC smart connect, etc please) |
 | medium                           | ? euros                                    | Stickers |
