@@ -24,6 +24,7 @@ If something is unclear, please shoot me a message at ahwx <at> ahwx <dot> org.<
 | medium                           | ~?? euros                                  | RGB/W lights/led strips that are compatible with Home Assistant and don't need (Chinese) servers. (No Tuya, LSC smart connect, etc please) |
 | medium                           | ? euros                                    | Stickers |
 | medium                           | ~?? euros                                  | [Any 3.5"/2.5" harddrive (HDD) or SSD](https://tweakers.net/interne-harde-schijven/vergelijken) |
+| low                              | ~50 euros                                  | [Lofree Touch PBT Wireless Mouse](https://www.lofree.co/products/lofree-touch-pbt-wireless-mouse)
 | low                              | ~20 euros                                  | [Cute teddy bear for on my backpack](https://www.amazon.nl/Knuffel-teddybeer-schattig-speelgoed-kinderen/dp/B09CNR2SVF/) |
 | low                              | ~35 euros                                  | [Keycaps 1](https://www.amazon.com/XDK-Custom-Keycaps-Dye-Sub-Plastic/dp/B09SB2GNQX) |
 | low                              | ~35 euros                                  | [Keycaps 2](https://www.amazon.com/AHHC-Japanese-Keycaps-GH60RK61GK6466ALT6187104-Mechanical/dp/B099DXXWHP) |
