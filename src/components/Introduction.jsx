@@ -1,6 +1,16 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
-const textArray = ['technology enthousiast', 'homelabber', 'nerd', 'person', 'student', 'teacher', 'blogger', 'shitposter'];
+const textArray = [
+  "technology enthousiast",
+  "homelabber",
+  "nerd",
+  "person",
+  "student",
+  "teacher",
+  "blogger",
+  "shitposter",
+  "ƃuoɹʍ ʎlqɐqoɹd",
+];
 
 class Home extends Component {
   constructor() {
@@ -15,16 +25,15 @@ class Home extends Component {
     }, 3000);
   }
 
-  componentWillUnmount() { // Corrected method name
+  componentWillUnmount() {
+    // Corrected method name
     clearInterval(this.timeout);
   }
 
   render() {
     let introductionText = textArray[this.state.textIdx % textArray.length];
 
-    return (
-      <span>{introductionText}</span>
-    );
+    return <span>{introductionText}</span>;
   }
 }
 
