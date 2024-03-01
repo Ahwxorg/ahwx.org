@@ -1,16 +1,18 @@
 ---
 layout: ../../layouts/blogPost.astro
-title: 'A trip to Cologne'
+title: "A trip to Cologne"
 pubDate: 2022-12-21
-description: "I installed Bedrock Linux"
+description: "See Cologne from my eyes"
 author: "Ahwx"
 ---
 
 # a trip to cologne
+
 > so some family had some medical issues and thus they needed to go to a hospital asap. cologne had the best hospital in the closest range, and thus they went there and since i could, i joined them and tried to see some parts of cologne itself.
 
 ## chistmas vibes
-since i went there from 18-12 till 21-12, i saw a lot of christmas stuff (for pictures, check the pictures section on [my website](https://ahwx.org/pix), they'll be uploaded soon.)
+
+since i went there from 18-12 till 21-12, i saw a lot of christmas stuff (for pictures, check the pictures section on [my website](https://ahwx.org/pix), they'll be uploaded soon. (note from 2024, they're not and most likely will not be uploaded.))
 
 there was even a little ice skating on one of the "platze", and there were a lot of little kids. the smiles of kids make me feel quite sad since i had that smile too when i was 3, and school took it al away. i love how kids can smile and can be happy with little things.
 

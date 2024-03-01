@@ -2,7 +2,7 @@
 layout: ../../layouts/blogPost.astro
 title: "ImageMagick rocks, here's why"
 pubDate: 2023-02-02
-description: "I installed Bedrock Linux"
+description: "I used ImageMagick tools to help a friend"
 author: "Ahwx"
 ---
 
