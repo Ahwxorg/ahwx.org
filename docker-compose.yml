@@ -1,0 +1,6 @@
+version: '3'
+services:
+  astro-init:
+    ports:
+      - 4321:8080
+    image: ghcr.io/ahwxorg/ahwx.org
