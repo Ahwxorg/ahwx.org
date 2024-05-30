@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ahwxorg-web
+  labels:
+    app: ahwxorgweb
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: ahwxorgweb
+  template:
+    metadata:
+      labels:
+        app: ahwxorgweb
+    spec:
+      containers:
+      - name: static-site
+        image: ghcr.io/ahwxorg/ahwx.org:latest
+        imagePullPolicy: Always
+        ports:
+          ContainerPort: 8080
