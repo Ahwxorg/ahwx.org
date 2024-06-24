@@ -1,14 +1,14 @@
 import React, { Component } from "react";
 
 const textArray = [
-  "technology enthousiast",
-  "homelabber",
-  "nerd",
-  "person",
-  "student",
-  "teacher",
-  "blogger",
-  "shitposter",
+  "a technology enthousiast",
+  "a homelabber",
+  "a nerd",
+  "a person",
+  "a student",
+  "a teacher",
+  "a blogger",
+  "a shitposter",
   "ƃuoɹʍ ʎlqɐqoɹd",
 ];
 
