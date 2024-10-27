@@ -3,7 +3,7 @@ layout: ../../layouts/Wishlist.astro
 title: Ahwx >> Wishlist
 ---
 
-_Updated on: mon, 10/09/2023, 4:11pm_<br><br>
+_Updated on: sun, 27/10/2024, 2:33pm_<br><br>
 
 Want to give anything but not sure what to give? [Reach out to me](https://ahwx.org/contact) please, so you can [donate](https://ahwx.org/donate) a custom amount of money to me directly.<br><br>
 
