@@ -17,6 +17,8 @@ If something is unclear, please shoot me a message at ahwx <at> ahwx <dot> org.<
 | medium    | ~30 euros    | Rotring 600 drafting pencil                                                                                                                             |
 | medium    | ~30 euros    | Any SFP+ network card that does 10GbE fiber and is supported on Linux                                                                                   |
 | medium    | ~30 euros    | [Busy Town R2 deskmat](https://mykeyboard.eu/catalogue/busy-town-r2-deskmat-gb_7829/)                                                                   |
+| medium    | ~22 euros    | [Bear tablet sleeve (coffee one)](https://www.amazon.com/dp/B0D2BF4X1X?th=1)
+| medium    | ~17 euros    | [Moondrop CHU II IEMs](https://www.amazon.com/dp/B0CB8HHS8V)
 | medium    | ~15 euros    | [USB Sharing Switch](https://www.amazon.nl/dp/B09DSGL7KV)                                                                                               |
 | medium    | ? euros      | Stickers                                                                                                                                                |
 | medium    | ~?? euros    | 2.5" SSD                                                                                                                                                |
