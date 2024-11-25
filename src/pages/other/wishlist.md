@@ -3,7 +3,7 @@ layout: ../../layouts/Wishlist.astro
 title: Ahwx >> Wishlist
 ---
 
-_Updated on: sun, 17/11/2024, 3:05pm_<br><br>
+_Updated on: mon, 25/11/2024, 3:05pm_<br><br>
 
 Want to give anything but not sure what to give? [Reach out to me](https://ahwx.org/contact) please, so you can [donate](https://ahwx.org/donate) a custom amount of money to me directly.<br><br>
 
@@ -11,8 +11,11 @@ If something is unclear, please shoot me a message at ahwx <at> ahwx <dot> org.<
 
 | Priority  | Price        | Item                                                                                                                                                    |
 | --------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------|
+| very high | ~100 euros   | [Sony FE 50mm F/1.8](https://www.kamera-express.nl/sony-fe-50mm-f-1-8) you should get this used as it's usually fine used and like half the price if not less             |
+| very high | ~30 euros    | [Framework SD card expansion module](https://frame.work/nl/en/products/sd-expansion-card)                                                                                 |
 | very high | ~20 euros    | 3D-printer filament, preferably black, purple or white                                                                                                  |
 | very high | ~20 euros    | Pebble Time/Pebble Core/Pebble Time Steel/Pebble 2/Pebble 2 SE                                                                                          |
+| high      | ~300 euros   | [7artisans 10mm F/2.8 Mark II for E-mount](https://www.kamera-express.nl/7artisans-10mm-f-2-8-mark-ii-sony-e-mount-z) should be cheaper elsewhere                         |
 | high      | ~0-100 euros | [Any 'old' Lenovo/IBM ThinkPad (T410/T420/T430/T440p/T480, X210/X220/X230/X280 or similar. Swappable CPU or quad-core)](https://lenovo.com/)            |
 | medium    | ~30 euros    | Rotring 600 drafting pencil                                                                                                                             |
 | medium    | ~30 euros    | Any SFP+ network card that does 10GbE fiber and is supported on Linux                                                                                   |
